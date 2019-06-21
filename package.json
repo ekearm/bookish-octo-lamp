@@ -1,0 +1,31 @@
+{
+  "name": "lab-18",
+  "version": "1.0.0",
+  "description": "TCP Server / Message Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "start": "node server/server.js",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourname-401-advanced-javascript/lab-18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourname-401-advanced-javascript/lab-18/issues"
+  },
+  "homepage": "https://github.com/yourname-401-advanced-javascript/lab-18#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "jsdoc": "^3.6.2",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
